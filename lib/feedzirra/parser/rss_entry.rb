@@ -1,5 +1,5 @@
 module Feedzirra
-  
+
   module Parser
     # == Summary
     # Parser for dealing with RDF feed entries.
@@ -35,8 +35,12 @@ module Feedzirra
       elements :category, :as => :categories
 
       element :guid, :as => :entry_id
+
+      element :enclosure, :value => :type, :as => :enclosure_type
+      element :enclosure, :value => :length, :as => :enclosure_length
+      element :enclosure, :value => :url, :as => :enclosure_url
     end
 
   end
-  
+
 end
