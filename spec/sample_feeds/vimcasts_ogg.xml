@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>Vimcasts OGG Feed</title>
+  <description>WEBSITE-DESCRIPTION</description>
+  <link>http://vimcasts.org/feeds/ogg/</link>
+  <atom:link href="http://vimcasts.org" rel="self" type="application/rss+xml"/>
+  <language>en-us</language>
+  <ttl>40</ttl>
+
+
+    <item>
+  <title>Fugitive.vim - resolving merge conflicts with vimdiff</title>
+  <description>
+
+      &lt;p&gt;When git branches are merged, there is always the chance of a conflict arising if a file was modified in both the target and merge branches. You can resolve merge conflicts using a combination of fugitive&amp;#8217;s &lt;code&gt;:Gdiff&lt;/code&gt; command, and Vim&amp;#8217;s built in &lt;code&gt;diffget&lt;/code&gt; and &lt;code&gt;diffput&lt;/code&gt;. In this episode, we&amp;#8217;ll find out how.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;This is the third in a five part series on fugitive.vim.&lt;/em&gt;&lt;/p&gt;
+
+  &lt;a href=&quot;http://flattr.com/thing/184250&quot; target=&quot;_blank&quot;&gt;
+    &lt;img src=&quot;http://api.flattr.com/button/button-compact-static-100x17.png&quot; alt=&quot;Flattr this&quot; title=&quot;Flattr this&quot; border=&quot;0&quot; /&gt;
+  &lt;/a&gt;
+
+
+
+
+  </description>
+
+
+        <enclosure url="http://media.vimcasts.org/videos/33/fugitive_3.ogv?referrer=rss" length="17760378" type="video/ogg"/>
+
+
+  <pubDate>Fri, 06 May 2011 07:16:33 GMT</pubDate>
+  <guid>http://vimcasts.org/episodes/fugitive-vim-resolving-merge-conflicts-with-vimdiff/</guid>
+  <link>http://vimcasts.org/episodes/fugitive-vim-resolving-merge-conflicts-with-vimdiff/</link>
+</item>
+
+
+
+    <item>
+  <title>Fugitive.vim - working with the git index</title>
+  <description>
+
+      &lt;p&gt;The fugitive plugin provides an interactive status window, where you can easily stage and review your changes for the next commit. The &lt;code&gt;:Gdiff&lt;/code&gt; command visualizes the changes made to a file, by comparing the working copy with the index. In this episode, we&amp;#8217;ll learn how to stage hunks of changes to the index without using the &lt;code&gt;git add --patch&lt;/code&gt; command.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;This is the second of a five part series on fugitive.vim. In the next episode, we&amp;#8217;ll learn how to resolve a git merge conflict by performing a 3-way vimdiff.&lt;/em&gt;&lt;/p&gt;
+
+  &lt;a href=&quot;http://flattr.com/thing/177652&quot; target=&quot;_blank&quot;&gt;
+    &lt;img src=&quot;http://api.flattr.com/button/button-compact-static-100x17.png&quot; alt=&quot;Flattr this&quot; title=&quot;Flattr this&quot; border=&quot;0&quot; /&gt;
+  &lt;/a&gt;
+
+
+
+
+  </description>
+
+
+        <enclosure url="http://media.vimcasts.org/videos/32/fugitive_2.ogv?referrer=rss" length="19217222" type="video/ogg"/>
+
+
+  <pubDate>Fri, 29 Apr 2011 11:43:30 GMT</pubDate>
+  <guid>http://vimcasts.org/episodes/fugitive-vim-working-with-the-git-index/</guid>
+  <link>http://vimcasts.org/episodes/fugitive-vim-working-with-the-git-index/</link>
+</item>
+
+
+
+    <item>
+  <title>Fugitive.vim - a complement to command line git</title>
+  <description>
+
+      &lt;p&gt;&lt;a href=&quot;https://github.com/tpope/vim-fugitive&quot;&gt;The fugitive plugin&lt;/a&gt;, by Tim Pope, is a git wrapper for Vim. It  complements the command line interface to git, but doesn&amp;#8217;t aim to replace it. In this episode, we&amp;#8217;ll see how some of fugitive&amp;#8217;s commands can streamline your workflow.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;This is the first of a five part series on fugitive.&lt;/em&gt;&lt;/p&gt;
+
+  &lt;a href=&quot;http://flattr.com/thing/173139&quot; target=&quot;_blank&quot;&gt;
+    &lt;img src=&quot;http://api.flattr.com/button/button-compact-static-100x17.png&quot; alt=&quot;Flattr this&quot; title=&quot;Flattr this&quot; border=&quot;0&quot; /&gt;
+  &lt;/a&gt;
+
+
+
+
+  </description>
+
+
+        <enclosure url="http://media.vimcasts.org/videos/31/fugitive_1.ogv?referrer=rss" length="17353898" type="video/ogg"/>
+
+
+  <pubDate>Fri, 22 Apr 2011 09:30:33 GMT</pubDate>
+  <guid>http://vimcasts.org/episodes/fugitive-vim---a-complement-to-command-line-git/</guid>
+  <link>http://vimcasts.org/episodes/fugitive-vim---a-complement-to-command-line-git/</link>
+</item>
+
+
+
+    <item>
+  <title>Vimcasts plugin for Plex now available</title>
+  <description>
+
+      &lt;p&gt;Fans of the &lt;a href=&quot;http://plexapp.com/&quot;&gt;Plex media center&lt;/a&gt; will be happy to know that there is now a &lt;a href=&quot;https://github.com/ches/plex-vimcasts&quot;&gt;Vimcasts plugin&lt;/a&gt;, available from the Plex online app store. It was built by &lt;a href=&quot;http://chesmart.in/&quot;&gt;Ches Martin&lt;/a&gt;, who was inspired when he saw that there was a &lt;a href=&quot;http://vimcasts.org/blog/2010/07/vimcasts-now-available-on-boxee/&quot;&gt;Vimcasts plugin for Boxee&lt;/a&gt;. So now you can get your fix of Vimcasts straight from your media center. Thanks Ches!&lt;/p&gt;
+
+
+
+
+  </description>
+
+
+
+  <pubDate>Wed, 23 Feb 2011 14:00:01 GMT</pubDate>
+  <guid>http://vimcasts.org/blog/2011/02/vimcasts-plugin-for-plex-now-available/</guid>
+  <link>http://vimcasts.org/blog/2011/02/vimcasts-plugin-for-plex-now-available/</link>
+</item>
+
+
+
+    <item>
+  <title>Undo branching and Gundo.vim</title>
+  <description>
+
+      &lt;p&gt;The undo command is almost universally available in software today. Being able to rollback unwanted changes can be a real timesaver. In most applications you can only go backwards and forwards linearly, but Vim keeps your changes in a tree structure, which means that you can retrieve edits from distant branches in your history. This episode will show you how.&lt;/p&gt;
+
+  &lt;a href=&quot;http://flattr.com/thing/137468&quot; target=&quot;_blank&quot;&gt;
+    &lt;img src=&quot;http://api.flattr.com/button/button-compact-static-100x17.png&quot; alt=&quot;Flattr this&quot; title=&quot;Flattr this&quot; border=&quot;0&quot; /&gt;
+  &lt;/a&gt;
+
+
+
+
+  </description>
+
+
+        <enclosure url="http://media.vimcasts.org/videos/30/undo_tree.ogv?referrer=rss" length="9435598" type="video/ogg"/>
+
+
+  <pubDate>Wed, 23 Feb 2011 13:01:33 GMT</pubDate>
+  <guid>http://vimcasts.org/episodes/undo-branching-and-gundo-vim/</guid>
+  <link>http://vimcasts.org/episodes/undo-branching-and-gundo-vim/</link>
+</item>
+
+
+
+    <item>
+  <title>Aligning text with Tabular.vim</title>
+  <description>
+
+      &lt;p&gt;There are times when you can improve the readability of your code by lining up the elements on neighbouring lines. In this episode, I demonstrate how this can be acheived using the &lt;a href=&quot;https://github.com/godlygeek/tabular&quot;&gt;Tabular&lt;/a&gt; plugin.&lt;/p&gt;
+
+  &lt;a href=&quot;http://flattr.com/thing/118292&quot; target=&quot;_blank&quot;&gt;
+    &lt;img src=&quot;http://api.flattr.com/button/button-compact-static-100x17.png&quot; alt=&quot;Flattr this&quot; title=&quot;Flattr this&quot; border=&quot;0&quot; /&gt;
+  &lt;/a&gt;
+
+
+
+
+  </description>
+
+
+        <enclosure url="http://media.vimcasts.org/videos/29/alignment.ogv?referrer=rss" length="6556323" type="video/ogg"/>
+
+
+  <pubDate>Mon, 17 Jan 2011 12:55:09 GMT</pubDate>
+  <guid>http://vimcasts.org/episodes/aligning-text-with-tabular-vim/</guid>
+  <link>http://vimcasts.org/episodes/aligning-text-with-tabular-vim/</link>
+</item>
+
+
+
+    <item>
+  <title>A text-object for ruby blocks</title>
+  <description>
+
+      &lt;p&gt;Ever since learning about Vim&amp;#8217;s &lt;a href=&quot;http://vimdoc.sourceforge.net/htmldoc/motion.html#text-objects&quot;&gt;text-objects&lt;/a&gt; I have wished that there was a way of selecting blocks in ruby code. Well, now there is. Today I am releasing a plugin that creates &lt;a href=&quot;http://www.vim.org/scripts/script.php?script_id=3382&quot;&gt;a custom text object for selecting ruby blocks&lt;/a&gt;. Merry Christmas!&lt;/p&gt;
+
+  &lt;a href=&quot;http://flattr.com/thing/107241&quot; target=&quot;_blank&quot;&gt;
+    &lt;img src=&quot;http://api.flattr.com/button/button-compact-static-100x17.png&quot; alt=&quot;Flattr this&quot; title=&quot;Flattr this&quot; border=&quot;0&quot; /&gt;
+  &lt;/a&gt;
+
+
+
+
+  </description>
+
+
+
+  <pubDate>Mon, 27 Dec 2010 23:00:01 GMT</pubDate>
+  <guid>http://vimcasts.org/blog/2010/12/a-text-object-for-ruby-blocks/</guid>
+  <link>http://vimcasts.org/blog/2010/12/a-text-object-for-ruby-blocks/</link>
+</item>
+</channel>
+</rss>
+

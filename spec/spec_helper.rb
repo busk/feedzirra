@@ -45,6 +45,10 @@ def sample_rss_entry_content
   load_sample("TenderLovemakingFirstEntry.xml")
 end
 
+def sample_rss_feed_with_enclosure
+  load_sample("vimcasts_ogg.xml")
+end
+
 def sample_feedburner_atom_feed
   load_sample("PaulDixExplainsNothing.xml")
 end
@@ -55,8 +59,8 @@ end
 
 def sample_wfw_feed
   load_sample("PaulDixExplainsNothingWFW.xml")
-end       
-       
+end
+
 # http://eigenclass.org/hiki/Changes+in+Ruby+1.9#l156
 # Default Time.to_s changed in 1.9, monkeypatching it back
 class Time
