@@ -1,5 +1,5 @@
 module Feedzirra
-  
+
   module Parser
     # == Summary
     # Parser for dealing with Feedburner Atom feed entries.
@@ -28,8 +28,12 @@ module Feedzirra
       element :updated
       element :modified, :as => :updated
       elements :category, :as => :categories, :value => :term
+
+      elements :enclosure, :value => :type, :as => :enclosure_type
+      elements :enclosure, :value => :length, :as => :enclosure_length
+      elements :enclosure, :value => :url, :as => :enclosure_url
     end
 
   end
-    
+
 end
