@@ -36,9 +36,13 @@ module Feedzirra
 
       element :guid, :as => :entry_id
 
-      element :enclosure, :value => :type, :as => :enclosure_type
-      element :enclosure, :value => :length, :as => :enclosure_length
-      element :enclosure, :value => :url, :as => :enclosure_url
+      elements :enclosure, :value => :type, :as => :enclosure_type
+      elements :enclosure, :value => :length, :as => :enclosure_length
+      elements :enclosure, :value => :url, :as => :enclosure_url
+
+      elements :"media:content", :value => :type, :as => :enclosure_type
+      elements :"media:content", :value => :fileSize, :as => :enclosure_length
+      elements :"media:content", :value => :url, :as => :enclosure_url
     end
 
   end
