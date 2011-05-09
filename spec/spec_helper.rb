@@ -49,6 +49,10 @@ def sample_rss_feed_with_enclosure
   load_sample("vimcasts_ogg.xml")
 end
 
+def sample_media_rss
+    load_sample("bliptv.xml")
+end
+
 def sample_feedburner_atom_feed
   load_sample("PaulDixExplainsNothing.xml")
 end

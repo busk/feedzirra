@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule"
+	xmlns:media="http://search.yahoo.com/mrss/"
+	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	xmlns:blip="http://blip.tv/dtd/blip/1.0"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:amp="http://www.adobe.com/amp/1.0"
+	xmlns:dcterms="http://purl.org/dc/terms"
+	xmlns:gm="http://www.google.com/schemas/gm/1.1"
+	xmlns:mediaad="http://blip.tv/dtd/mediaad/1.0"
+>
+<channel>
+<title>Recent Posts - blip.tv - blip.tv</title>
+<link>http://blip.tv</link>
+
+<description>Recent Posts - blip.tv - blip.tv</description>
+
+<language>en-us</language>
+<generator>http://blip.tv</generator>
+<lastBuildDate>Mon, 09 May 2011 07:28:32 +0000</lastBuildDate>
+<pubDate>Mon, 09 May 2011 07:28:32 +0000</pubDate>
+
+<item>
+  <guid isPermaLink="false">EF52156C-7A0D-11E0-B341-A6598A19CCC2</guid>
+  <link>http://blip.tv/file/5121891</link>
+  <title>Big Douche Chill - Episode 1 Blooper Reel</title>
+  <blip:user>incredodamn</blip:user>
+  <blip:userid>736131</blip:userid>
+  <blip:safeusername>bigdouchechill</blip:safeusername>
+  <blip:show>The Big Douche Chill</blip:show>
+  <blip:showpage>http://bigdouchechill.blip.tv/</blip:showpage>
+  <blip:picture>http://a.images.blip.tv/Incredodamn-picture844.jpg</blip:picture>
+  <blip:posts_id>5139564</blip:posts_id>
+  <blip:item_id>5121891</blip:item_id>
+  <blip:item_type>file</blip:item_type>
+  <blip:contentRating>TV-UN</blip:contentRating>
+  <blip:rating>0.0</blip:rating>
+  <blip:datestamp>2011-05-09T07:28:28Z</blip:datestamp>
+  <blip:language>English</blip:language>
+  <blip:adChannel>Comedy</blip:adChannel>
+  <blip:recommendations>0</blip:recommendations>
+  <blip:recommendable>0</blip:recommendable>
+  <blip:core>0</blip:core>
+  <blip:adminRating>2</blip:adminRating>
+  <blip:runtime>223</blip:runtime>
+  <blip:embedLookup>h5EdgrnZUAI</blip:embedLookup>
+  <blip:embedUrl type="application/x-shockwave-flash">http://blip.tv/play/h5EdgrnZUAI</blip:embedUrl>
+  <wfw:commentRss>http://blip.tv/comments/?attached_to=post5139564&amp;skin=rss</wfw:commentRss>
+  <blip:thumbnail_src>Incredodamn-BigDoucheChillEpisode1BlooperReel427-847.jpg</blip:thumbnail_src>
+  <blip:puredescription><![CDATA[Nobody's perfect. We all mistakes. Luckily we've captured them on video and put them all together for you here. Enjoy.]]></blip:puredescription>
+  <blip:smallThumbnail>http://a.images.blip.tv/Incredodamn-BigDoucheChillEpisode1BlooperReel427-847-792.jpg</blip:smallThumbnail>
+  <blip:license>No license (All rights reserved)</blip:license>
+  <blip:categories>
+    <blip:category>comedy</blip:category>
+  </blip:categories>
+  <description><![CDATA[
+
+<iframe src="http://blip.tv/play/h5EdgrnZUAI.html" width="480" height="300" frameborder="0" allowfullscreen></iframe><embed type="application/x-shockwave-flash" src="http://a.blip.tv/api.swf#h5EdgrnZUAI" style="display:none"></embed>
+<br />
+
+Nobody's perfect. We all mistakes. Luckily we've captured them on video and put them all together for you here. Enjoy.
+
+]]></description>
+  <comments>http://blip.tv/file/5121891</comments>
+  <category>Comedy</category>
+  <category>fail</category>
+  <category>webseries</category>
+  <category>douche</category>
+  <category>chill</category>
+  <category>roomates</category>
+  <category>comedy</category>
+  <category>silly</category>
+  <category>random</category>
+  <category>alcohol</category>
+  <category>racist</category>
+  <category>hobo</category>
+  <category>hdslr</category>
+  <category>indie</category>
+  <category>sitcom</category>
+  <category>julien</category>
+  <category>deleted scenes</category>
+  <category>blooper</category>
+  <category>outttake</category>
+  <category>reel</category>
+  <pubDate>Mon, 09 May 2011 07:28:28 +0000</pubDate>
+  <itunes:keywords>fail, webseries, douche, chill, roomates, comedy, silly, random, alcohol, racist, hobo, hdslr, indie, sitcom, julien, deleted scenes, blooper, outttake, reel</itunes:keywords>
+  <itunes:image>http://a.images.blip.tv/Incredodamn-BigDoucheChillEpisode1BlooperReel427-847.jpg</itunes:image>
+  <media:keywords>fail, webseries, douche, chill, roomates, comedy, silly, random, alcohol, racist, hobo, hdslr, indie, sitcom, julien, deleted scenes, blooper, outttake, reel</media:keywords>
+  <media:group>
+    <media:content blip:acodec="ffaac" blip:role="Source" blip:vcodec="ffh264" expression="full" fileSize="52853783" height="720" isDefault="true" type="video/quicktime" url="http://blip.tv/file/get/Incredodamn-BigDoucheChillEpisode1BlooperReel427.mov" width="1280"></media:content>
+    <media:content blip:acodec="ffaac" blip:role="Blip SD" blip:vcodec="ffh264" expression="full" fileSize="23847200" height="360" isDefault="false" type="video/x-m4v" url="http://blip.tv/file/get/Incredodamn-BigDoucheChillEpisode1BlooperReel399.m4v" width="640"></media:content>
+    <media:content blip:acodec="ffaac" blip:role="Blip HD 720" blip:vcodec="ffh264" expression="full" fileSize="49904984" height="720" isDefault="false" type="video/x-m4v" url="http://blip.tv/file/get/Incredodamn-BigDoucheChillEpisode1BlooperReel905.m4v" width="1280"></media:content>
+  </media:group>
+  <media:player url="http://blip.tv/file/5121891"><![CDATA[<iframe src="http://blip.tv/play/h5EdgrnZUAI.html" width="480" height="300" frameborder="0" allowfullscreen></iframe><embed type="application/x-shockwave-flash" src="http://a.blip.tv/api.swf#h5EdgrnZUAI" style="display:none"></embed>]]></media:player>
+  <itunes:explicit>yes</itunes:explicit>
+  <media:adult>true</media:adult>
+  <media:title>Big Douche Chill - Episode 1 Blooper Reel</media:title>
+  <media:thumbnail url="http://a.images.blip.tv/Incredodamn-BigDoucheChillEpisode1BlooperReel427-847.jpg"/>
+</item>
+</channel>
+</rss>

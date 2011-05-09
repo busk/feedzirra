@@ -46,15 +46,33 @@ describe Feedzirra::Parser::RSSEntry do
     end
 
     it "should parse enclosure type as enclosure_type" do
-        @entry.enclosure_type.should == "video/ogg"
+      @entry.enclosure_type.first.should == "video/ogg"
     end
 
     it "should parse enclosure length as enclosure_length" do
-      @entry.enclosure_length.should == "17760378"
+      @entry.enclosure_length.first.should == "17760378"
     end
 
     it "should parse enclosure url as enclosure_url" do
-      @entry.enclosure_url.should == "http://media.vimcasts.org/videos/33/fugitive_3.ogv?referrer=rss"
+      @entry.enclosure_url.first.should == "http://media.vimcasts.org/videos/33/fugitive_3.ogv?referrer=rss"
+    end
+  end
+
+  context "media rss enclosure parsing" do
+    before do
+      @entry = Feedzirra::Parser::RSS.parse(sample_media_rss).entries.first
+    end
+
+    it "should parse media:content type as enclosure_type" do
+      @entry.enclosure_type.should == ["video/quicktime", "video/x-m4v", "video/x-m4v"]
+    end
+
+    it "should parse media:content fileSize as enclosure_length" do
+      @entry.enclosure_length.should == ["52853783", "23847200", "49904984"]
+    end
+
+    it "should parse media:content url as enclosure url" do
+      @entry.enclosure_url.should == ["http://blip.tv/file/get/Incredodamn-BigDoucheChillEpisode1BlooperReel427.mov", "http://blip.tv/file/get/Incredodamn-BigDoucheChillEpisode1BlooperReel399.m4v", "http://blip.tv/file/get/Incredodamn-BigDoucheChillEpisode1BlooperReel905.m4v"]
     end
   end
 end
