@@ -1,7 +1,11 @@
+require "bundler"
 require "rspec"
 require "rspec/core/rake_task"
 require 'rake/rdoctask'
 require File.dirname(__FILE__) + "/lib/feedzirra.rb"
+
+# Bubler Tasks
+Bundler::GemHelper.install_tasks
 
 # Grab recently touched specs
 def recent_specs(touched_since)
@@ -46,8 +50,5 @@ Rake::RDocTask.new do |rd|
   rd.options = ["--quiet", "--opname", "index.html", "--line-numbers", "--inline-source", '--main', 'README.rdoc']
 end
 
-task :install do
-  rm_rf "*.gem"
-  puts `gem build feedzirra.gemspec`
-  puts `sudo gem install feedzirra-#{Feedzirra::VERSION}.gem`
-end
+
+

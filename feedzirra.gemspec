@@ -1,12 +1,15 @@
+# Feedzirra.gemspec
 # -*- encoding: utf-8 -*-
+$:.push File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |s|
   s.name = %q{feedzirra}
-  s.version = "0.0.24"
+  s.version = "0.0.25"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Paul Dix"]
-  s.date = %q{2009-02-19}
+  s.authors = ["Marcelo Eden", "jmatraszek", "Paul Dix"]
+  s.platform    = Gem::Platform::RUBY
+  s.date = %q{2010-05-09}
   s.email = %q{paul@pauldix.net}
   s.files = [
     "lib/core_ext/date.rb",
@@ -40,9 +43,8 @@ Gem::Specification.new do |s|
     "spec/feedzirra/feed_utilities_spec.rb",
     "spec/feedzirra/feed_entry_utilities_spec.rb"]
   s.has_rdoc = true
-  s.homepage = %q{http://github.com/pauldix/feedzirra}
+  s.homepage = %q{http://github.com/busk/feedzirra}
   s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.3.1}
   s.summary = %q{A feed fetching and parsing library that treats the internet like Godzilla treats Japan: it dominates and eats all.}
 
   if s.respond_to? :specification_version then
@@ -76,3 +78,4 @@ Gem::Specification.new do |s|
   s.add_development_dependency('rspec')
   s.add_development_dependency('diff-lcs')
 end
+
